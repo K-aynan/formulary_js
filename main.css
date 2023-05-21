@@ -11,50 +11,31 @@ body {
 }
 
 form {
-  margin-top: 40px;
+  max-width: 400px;
+  margin: o auto;
 }
 
-input, textarea, button{
-  display: block;
-  padding: 8px;
-  margin-bottom: 8px;
+input[type= "number"]{
+  padding: 5px;
   width: 100%;
-  resize: none;
+  border: 1px solid #ccc;
 }
 
-button{
-  background-color: green;
+input[type= "submit"]{
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4CAf50;
+  color: #fff;
   border: none;
-  text-transform: uppercase;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  font-style: italic;
   cursor: pointer;
 }
 
-button:hover{
-  background-color: rgb(19, 19, 141);
+input[type= "submit"]:hover{
+  background-color: #45a049;
 }
 
-.success-message {
-  background-color: rgb(19, 19, 141);
-  padding: 16px;
-  color: white;
-  display: none;
-}
-
-.error-message{
-  font-size: 12px;
-  padding: 8px;
-  background-color: red;
-  color: white;
-  margin-bottom: 8px;
-  display: none;
-}
-
-input.error{
+error{
   color: red;
-  border-color: red;
-  outline-color: red;
+  margin-top: 5px;
 }
