@@ -11,8 +11,8 @@
     <div class="container">
       <h1>EBAC Calculum</h1>
       <h2>Conta</h2>
-      <form onsubmit="return ValidarFormulário()">
-        <label for="for=numeroA">Número A:</label>
+      <form>
+        <label for="numeroA">Número A:</label>
         <input
           type="number"
           id="numeroA"
@@ -20,7 +20,7 @@
           placeholder="put a number"
           required
         />
-        <label for="for=numeroB">Número B</label>
+        <label for="numeroB">Número B</label>
         <input
           type="number"
           id="numeroB"
@@ -30,6 +30,8 @@
         />
         <input type="submit" value="Enviar" />
       </form>
+      <p class="resultadoB"></p>
+      <p class="resultadoA"></p>
     </div>
     <script src="./main.js"></script>
   </body>

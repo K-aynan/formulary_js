@@ -35,7 +35,12 @@ input[type= "submit"]:hover{
   background-color: #45a049;
 }
 
-error{
+.resultadoA{
   color: red;
+  margin-top: 5px;
+}
+
+.resultadoB{
+  color: green;
   margin-top: 5px;
 }
